@@ -1,0 +1,203 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Controller-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L BRIDGE D?
+U 1 1 569A5DB8
+P 2775 1725
+F 0 "D?" H 3025 1275 50  0000 C CNN
+F 1 "BRIDGE" H 3100 1375 50  0000 C CNN
+F 2 "" H 2875 1875 60  0000 C CNN
+F 3 "" H 2875 1875 60  0000 C CNN
+	1    2775 1725
+	1    0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 569A5EEE
+P 2350 1875
+AR Path="/569A5EEE" Ref="#PWR?"  Part="1" 
+AR Path="/569A4680/569A5EEE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2350 1875 30  0001 C CNN
+F 1 "GND" H 2350 1805 30  0001 C CNN
+F 2 "" H 2350 1875 60  0000 C CNN
+F 3 "" H 2350 1875 60  0000 C CNN
+	1    2350 1875
+	1    0    0    -1  
+$EndComp
+$Comp
+L V+ #PWR?
+U 1 1 569A5F66
+P 5375 1600
+F 0 "#PWR?" H 5375 1650 30  0001 C CNN
+F 1 "V+" H 5375 1725 50  0000 C CNN
+F 2 "" H 5375 1600 60  0000 C CNN
+F 3 "" H 5375 1600 60  0000 C CNN
+	1    5375 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_01X01 P?
+U 1 1 569A5FF6
+P 1300 1300
+F 0 "P?" H 1300 1400 50  0000 C CNN
+F 1 "AC_1" H 1300 1175 50  0000 C CNN
+F 2 "" H 1300 1300 50  0000 C CNN
+F 3 "" H 1300 1300 50  0000 C CNN
+	1    1300 1300
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_01X01 P?
+U 1 1 569A6065
+P 1300 2200
+F 0 "P?" H 1300 2300 50  0000 C CNN
+F 1 "AC_2" H 1300 2075 50  0000 C CNN
+F 2 "" H 1300 2200 50  0000 C CNN
+F 3 "" H 1300 2200 50  0000 C CNN
+	1    1300 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L C-ALUM-16mm C?
+U 1 1 569A6660
+P 3650 1950
+F 0 "C?" H 3825 1975 50  0000 C CNN
+F 1 "2200uF/50V" H 4000 1875 50  0000 C CNN
+F 2 "pth-passive:C-ALUM-16mm" H 3650 1950 50  0001 C CNN
+F 3 "" H 3640 1925 60  0000 C CNN
+	1    3650 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-ALUM-16mm C?
+U 1 1 569A66AB
+P 4525 1950
+F 0 "C?" H 4700 1975 50  0000 C CNN
+F 1 "2200uF/50V" H 4875 1875 50  0000 C CNN
+F 2 "pth-passive:C-ALUM-16mm" H 4525 1950 50  0001 C CNN
+F 3 "" H 4515 1925 60  0000 C CNN
+	1    4525 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 569A698B
+P 3650 2150
+AR Path="/569A698B" Ref="#PWR?"  Part="1" 
+AR Path="/569A4680/569A698B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3650 2150 30  0001 C CNN
+F 1 "GND" H 3650 2080 30  0001 C CNN
+F 2 "" H 3650 2150 60  0000 C CNN
+F 3 "" H 3650 2150 60  0000 C CNN
+	1    3650 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 569A69A8
+P 4525 2150
+AR Path="/569A69A8" Ref="#PWR?"  Part="1" 
+AR Path="/569A4680/569A69A8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4525 2150 30  0001 C CNN
+F 1 "GND" H 4525 2080 30  0001 C CNN
+F 2 "" H 4525 2150 60  0000 C CNN
+F 3 "" H 4525 2150 60  0000 C CNN
+	1    4525 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2425 1725 2350 1725
+Wire Wire Line
+	2350 1725 2350 1875
+Wire Wire Line
+	1500 1300 2775 1300
+Wire Wire Line
+	2775 1300 2775 1375
+Wire Wire Line
+	1500 2200 2775 2200
+Wire Wire Line
+	2775 2200 2775 2075
+Wire Wire Line
+	3125 1725 5375 1725
+Wire Wire Line
+	5375 1725 5375 1600
+Connection ~ 3650 1725
+Wire Wire Line
+	3650 2050 3650 2150
+Wire Wire Line
+	4525 2050 4525 2150
+Wire Wire Line
+	4525 1725 4525 1850
+Connection ~ 4525 1725
+Wire Wire Line
+	1625 1725 1625 1850
+$Comp
+L EGND #PWR?
+U 1 1 569A631F
+P 1625 1850
+F 0 "#PWR?" H 1625 1850 30  0001 C CNN
+F 1 "EGND" H 1625 1780 30  0000 C CNN
+F 2 "" H 1625 1850 60  0000 C CNN
+F 3 "" H 1625 1850 60  0000 C CNN
+	1    1625 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1725 1625 1725
+$Comp
+L CONN_01X01 P?
+U 1 1 569A62A4
+P 1300 1725
+F 0 "P?" H 1300 1825 50  0000 C CNN
+F 1 "MAINS_EARTH" H 1300 1600 50  0000 C CNN
+F 2 "" H 1300 1725 50  0000 C CNN
+F 3 "" H 1300 1725 50  0000 C CNN
+	1    1300 1725
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3650 1850 3650 1725
+$EndSCHEMATC
