@@ -60,12 +60,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2950 1925 1125 1350
+S 4575 2250 1125 1350
 U 569A4680
 F0 "PowerSupply" 60
 F1 "Controller-PowerSupply.sch" 60
-F2 "VIN" I L 2950 2075 60 
-F3 "+12V" I L 2950 2400 60 
-F4 "+5V" I L 2950 2700 60 
+F2 "VIN" I L 4575 2400 60 
+F3 "+12V" I L 4575 2725 60 
+F4 "+5V" I L 4575 3025 60 
 $EndSheet
 $EndSCHEMATC
