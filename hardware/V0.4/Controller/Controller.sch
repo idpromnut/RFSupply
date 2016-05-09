@@ -28,7 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:passive
 LIBS:semi-diode-generic
 LIBS:_semi
 LIBS:pcb
@@ -44,12 +43,14 @@ LIBS:semi-diode-DiodesInc
 LIBS:DiodesInc
 LIBS:_linear
 LIBS:conn-100mil
+LIBS:AOS
+LIBS:pasv-Bourns
 LIBS:Controller-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -67,5 +68,12 @@ F1 "Controller-PowerSupply.sch" 60
 F2 "VIN" I L 2950 2075 60 
 F3 "+12V" I L 2950 2400 60 
 F4 "+5V" I L 2950 2700 60 
+$EndSheet
+$Sheet
+S 5600 1850 1425 1625
+U 572A95A9
+F0 "uController" 60
+F1 "Controller-uController.sch" 60
+F2 "+5V" I L 5600 2175 60 
 $EndSheet
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-update=4/14/2016 9:13:16 PM
+update=5/2/2016 10:34:39 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -73,3 +73,5 @@ LibName41=semi-diode-DiodesInc
 LibName42=DiodesInc
 LibName43=_linear
 LibName44=conn-100mil
+LibName45=AOS
+LibName46=pasv-Bourns

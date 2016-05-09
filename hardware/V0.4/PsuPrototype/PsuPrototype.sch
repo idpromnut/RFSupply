@@ -597,7 +597,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 4075 7500 4075
 Wire Wire Line
-	7500 4075 7500 3775
+	7500 3775 7500 4075
 Connection ~ 7500 3775
 Wire Wire Line
 	7600 4475 7600 5025
@@ -670,17 +670,13 @@ Text GLabel 1575 5100 0    60   Input ~ 0
 Vin
 Text GLabel 2225 5100 2    60   Input ~ 0
 Vin
-Text GLabel 2225 4700 2    60   Input ~ 0
-12V
-Text GLabel 1575 4700 0    60   Input ~ 0
-12V
-Text GLabel 2225 4500 2    60   Input ~ 0
-5V
-Text GLabel 1575 4500 0    60   Input ~ 0
-5V
-Text GLabel 1575 4900 0    60   Input ~ 0
-5V
 Text GLabel 2225 4900 2    60   Input ~ 0
+12V
+Text GLabel 1575 4900 0    60   Input ~ 0
+12V
+Text GLabel 2225 4700 2    60   Input ~ 0
+5V
+Text GLabel 1575 4700 0    60   Input ~ 0
 5V
 $Comp
 L GND #PWR?
@@ -719,7 +715,7 @@ Wire Wire Line
 Wire Wire Line
 	1275 5200 1650 5200
 Wire Wire Line
-	2150 5200 2525 5200
+	2525 5200 2150 5200
 Wire Wire Line
 	2525 4200 2525 4400
 Wire Wire Line
@@ -798,32 +794,32 @@ F 3 "" H 4675 3525 50  0000 C CNN
 	1    4675 4725
 	1    0    0    1   
 $EndComp
-Text GLabel 4300 4075 1    60   Input ~ 0
+Text GLabel 4225 4075 1    60   Input ~ 0
 Vin
 Text GLabel 4125 4775 0    60   Input ~ 0
 12V
 Text GLabel 3775 4875 0    60   Input ~ 0
 5V
-Text GLabel 5050 4075 1    60   Input ~ 0
+Text GLabel 5125 4075 1    60   Input ~ 0
 Vin
 Wire Wire Line
-	4300 4075 4300 4375
+	4225 4075 4225 4375
 Wire Wire Line
-	4300 4375 4300 4475
+	4225 4375 4225 4475
 Wire Wire Line
-	4300 4375 4425 4375
+	4225 4375 4425 4375
 Wire Wire Line
-	4300 4475 4425 4475
-Connection ~ 4300 4375
+	4225 4475 4425 4475
+Connection ~ 4225 4375
 Wire Wire Line
-	4925 4375 5050 4375
+	4925 4375 5125 4375
 Wire Wire Line
-	5050 4075 5050 4375
+	5125 4075 5125 4375
 Wire Wire Line
-	5050 4375 5050 4475
+	5125 4375 5125 4475
 Wire Wire Line
-	5050 4475 4925 4475
-Connection ~ 5050 4375
+	5125 4475 4925 4475
+Connection ~ 5125 4375
 $Comp
 L GND #PWR?
 U 1 1 57147C82
@@ -862,4 +858,12 @@ Wire Wire Line
 	3775 4875 4425 4875
 Wire Wire Line
 	4125 4775 4425 4775
+Text GLabel 1575 4500 0    60   Input ~ 0
+12V
+Text GLabel 2225 4500 2    60   Input ~ 0
+12V
+Text GLabel 4275 5075 0    60   Input ~ 0
+RF_EN
+Wire Wire Line
+	4275 5075 4425 5075
 $EndSCHEMATC
