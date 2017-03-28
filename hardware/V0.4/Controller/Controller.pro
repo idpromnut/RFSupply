@@ -1,4 +1,4 @@
-update=5/2/2016 10:34:39 PM
+update=1/11/2017 5:00:04 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../../../../../../dev/kicad-schlib/library
@@ -75,3 +73,5 @@ LibName43=_linear
 LibName44=conn-100mil
 LibName45=AOS
 LibName46=pasv-Bourns
+[general]
+version=1
